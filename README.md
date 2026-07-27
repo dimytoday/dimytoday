@@ -118,7 +118,7 @@ Full-stack luxury jewelry store: a single React app powering both the customer s
 <td width="50%" valign="top">
 
 ### ✈️ Aviation Weather Assistant
-<img src="https://img.shields.io/badge/status-in%20development-yellow?style=flat-square"/>
+<img src="https://img.shields.io/badge/status-completed-green?style=flat-square"/>
 
 REST API: fetches live METAR/TAF reports and translates raw aviation codes into plain English via LLM. Returns flight condition assessment (VFR/IFR).
 
