@@ -131,6 +131,29 @@ REST API: fetches live METAR/TAF reports and translates raw aviation codes into 
 
 </td>
 </tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🧳 Voyager
+<img src="https://img.shields.io/badge/status-completed-green?style=flat-square"/>
+
+Full-stack service that turns a trip form into a downloadable PDF travel report (weather, attractions, budget & tips). Generated asynchronously by a Celery chord — parallel weather + AI content feeding a PDF task — with live WebSocket progress.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+[![View Repo](https://img.shields.io/badge/View_Repository-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dimytoday/voyager)
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 #
