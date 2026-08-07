@@ -152,6 +152,22 @@ Full-stack service that turns a trip form into a downloadable PDF travel report 
 
 </td>
 <td width="50%" valign="top">
+
+### 🤖 DocQA — Multi-Agent RAG
+<img src="https://img.shields.io/badge/status-completed-green?style=flat-square"/>
+
+Multi-agent RAG service: build knowledge bases from your documents and ask questions answered by a **Router → Retriever → Analyst → Critic** pipeline over pgvector. Answers stream token-by-token via SSE, cite their sources (file · page) and carry a confidence score — full-stack with a React frontend.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+[![View Repo](https://img.shields.io/badge/View_Repository-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dimytoday/multi-agent-doc-qa)
+
 </td>
 </tr>
 </table>
